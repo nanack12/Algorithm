@@ -1,7 +1,6 @@
-a, b = input().strip().split(' ')
-b = int(b)
-
-answer=''
-for i in range (b):
-    answer+=a
-print(answer)
+str, n = input().split()
+n = int(n)
+ans =''
+for i in range(n) :
+    ans += str
+print(ans)
